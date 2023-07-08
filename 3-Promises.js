@@ -58,3 +58,9 @@ order(2000,
             console.log('Icecream was served');
         })
     })
+    .catch(() => {
+        console.log('Customer Left');
+    })
+    .finally(() => {
+        console.log('Day ended! Shop is closed');
+    })
